@@ -18,7 +18,7 @@ features = df.copy()
 labels = features.pop('Life expectancy')
 
 # Remove features as desired
-features.drop(['Infant Mort', 'Adult Mort'], axis=1)
+features = features.drop(['Infant Mort', 'Adult Mort'], axis=1)
 
 train_features, test_features, train_labels, test_labels = train_test_split(
     features, labels, random_state=0, test_size=test_size
@@ -51,7 +51,7 @@ loaded_model = load_model(model_path)
 predictions = predict(loaded_model, test_features)
 train_score=score(model,train_features,train_labels)
 test_score=score(model,test_features,test_labels)
-print(f'Train r2 score:{train_score}\nTest r2 score:{test_score}')
+print(f'Train r2 score: {train_score}\nTest r2 score: {test_score}')
 
 print()
 print("=========Feature importance==========")

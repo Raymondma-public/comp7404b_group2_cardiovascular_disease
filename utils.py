@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('agg')  # no tkinter
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

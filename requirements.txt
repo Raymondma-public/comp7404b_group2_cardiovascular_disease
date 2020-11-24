@@ -1,6 +1,6 @@
 tensorflow
 joblib
-numpy==1.15.2
+numpy==1.16.0
 matplotlib==3.0.0
 pandas==0.23.4
 scikit-learn==0.23.2

@@ -13,7 +13,7 @@ from utils import *
 
 # cleansed_data_path = '/content/drive/MyDrive/Life_Expectancy_Data_processed.csv'
 
-filepath = 'data/Life_Expectancy_Data_processed .csv'
+filepath = 'data/Life_Expectancy_Data_processed.csv'
 model_path = 'models/MLP/model.joblib'
 test_size = 0.2
 

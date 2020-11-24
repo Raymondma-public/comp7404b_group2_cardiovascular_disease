@@ -6,7 +6,7 @@ There are factors to the average life expectancy of a population, such as wealth
 # Usage
 Requirements:
 -   Python: 3.7 or above
--   Other [reqirements](requirements.txt)
+-   Other [requirements](requirements.txt)
 
 ## Set up
 1.  Set up virtual environment. For example:
@@ -15,7 +15,7 @@ virtualenv .venv --python=python3
 source .venv/bin/activate
 ```
 
-2.  Install [reqirements](requirements.txt).
+2.  Install [requirements](requirements.txt).
 ```bash
 pip install -r requirements.txt
 ```

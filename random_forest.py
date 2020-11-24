@@ -5,7 +5,7 @@ An example for random forest regression on Life Expectancy
 from utils import *
 from sklearn.model_selection import train_test_split
 
-filepath = 'data/Life_Expectancy_Data_processed .csv'
+filepath = 'data/Life_Expectancy_Data_processed.csv'
 model_path= 'models/RF/model.joblib'
 test_size = 0.2
 

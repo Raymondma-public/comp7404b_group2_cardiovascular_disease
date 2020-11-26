@@ -9,7 +9,7 @@ Requirements:
 -   Other [requirements](requirements.txt)
 
 ## Set up
-1.  Set up virtual environment. For example:
+1.  Set up virtual environment(Linux). For example:
 ```bash
 virtualenv .venv --python=python3
 source .venv/bin/activate

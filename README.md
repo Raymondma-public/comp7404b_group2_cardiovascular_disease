@@ -25,11 +25,11 @@ pip install -r requirements.txt
 The following demos are examples on how to build the training and testing sets. Example of how to use the functions in [utils.py](utils.py) are also shown.
 
 -   [Random Forest Regression](random_forest.py)
--   [Neural Network Regression](multilayer_perception.py)
+-   [Neural Network Regression](multilayer_perceptron.py)
 
 ```bash
 python random_forest.py
-python multilayer_perception.py
+python multilayer_perceptron.py
 ```
 
 ## [utils.py](utils.py)
